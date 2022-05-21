@@ -1,4 +1,4 @@
-#Restaurant page
+# Restaurant page
 
 This proyect is part of <a href="https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page">this lesson</a> of The Odin Project.
 
