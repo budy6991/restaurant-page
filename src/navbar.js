@@ -3,5 +3,5 @@ import getElements from './getElements'
 
 
 export default function navBar () {
-    getElements.getContent().append(createDiv('MENU'), createDiv('CONTACT'))
+    getElements.getContent().append(createDiv('MENU'), createDiv('CONTACT'), createDiv('icon'))
 }

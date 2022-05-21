@@ -1,6 +1,5 @@
-import { renderPage } from "./main-module"
 import './style.css'
+import mainPage from "./main-module"
 
-
-
+mainPage()
 
