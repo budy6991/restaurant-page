@@ -21,4 +21,5 @@ export default function () {
     navBar()
     getElements.getContent().appendChild(createDiv('Contact-information')).append(name, address, phoneNumber, email)
     eventHandler.createMenuListener()
+    eventHandler.createIconListener()
 }

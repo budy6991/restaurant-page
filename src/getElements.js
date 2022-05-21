@@ -10,6 +10,10 @@ export default {
 
     getContact(){
         return document.querySelector('.contact')
+    },
+
+    getIcon(){
+        return document.querySelector('.icon')
     }
 
 }

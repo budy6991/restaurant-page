@@ -126,3 +126,21 @@ body {
     cursor: pointer
 }
 
+.icon {
+    display: flex;
+    background-image: url('./colosseum.png');
+    grid-column: 3/4;
+    grid-row: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgba(19, 19, 19, 0);
+    filter: invert(95%); 
+    justify-self: center;
+    align-self: center;
+    transform: scale(3);
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+

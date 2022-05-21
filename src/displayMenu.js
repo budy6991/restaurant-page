@@ -9,4 +9,5 @@ export default function () {
     navBar()
     getElements.getContent().append(createDiv('Spaghetti-Alla-Bolognese'), createDiv('Spaghetti-alla-genovese'), createDiv('Lasagna-di-paese'), createDiv('Gnocci'))
     eventHandler.createContactListener()
+    eventHandler.createIconListener()
 }
