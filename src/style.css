@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu, .contact, .la-casa-di-mamma, .autentica-cucina-italiana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.menu {
+    grid-column: 2;
+}
+
+.contact {
+    grid-column: 4;
+}
+
+.la-casa-di-mamma {
+    grid-row: 3;
+    grid-column: 2 / 5;
+    font-size: 4em;
+    position: relative;
+    
+}
+
+.autentica-cucina-italiana {
+    grid-row: 4;
+    grid-column: 3;
+    font-style: italic;
+}
+
+.imageone {
+    background-color: white;
+    grid-area: 2 / 2 / 4 / 3;
+    
+}

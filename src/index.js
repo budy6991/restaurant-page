@@ -1,1 +1,6 @@
-console.log('It is actually working')
+import { renderPage } from "./main-module"
+import './style.css'
+
+
+
+
